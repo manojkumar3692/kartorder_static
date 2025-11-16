@@ -22,7 +22,7 @@ export default function LandingNeon() {
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-fuchsia-500 to-cyan-400 text-[10px] font-extrabold">
               KS
             </div>
-            <span className="text-sm font-semibold tracking-tight">Kart Order</span>
+            <span className="text-sm font-semibold tracking-tight">KartOrder</span>
           </div>
           <nav className="hidden gap-6 text-sm text-white/70 md:flex">
             <a href="/" className="hover:text-white">Classic</a>
@@ -129,7 +129,7 @@ export default function LandingNeon() {
 
       <footer className="border-t border-white/10 py-8">
         <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 text-sm text-white/70">
-          <div>© {new Date().getFullYear()} Kart Order</div>
+          <div>© {new Date().getFullYear()} KartOrder</div>
           <div className="flex items-center gap-4">
             <a href="/" className="hover:text-white">Classic</a>
             <a href="#pricing" className="hover:text-white">Pricing</a>

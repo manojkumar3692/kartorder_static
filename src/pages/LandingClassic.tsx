@@ -20,12 +20,12 @@ function Nav() {
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-black text-[10px] font-bold text-white">
             KS
           </div>
-          <span className="text-sm font-semibold tracking-tight">Kart Order</span>
+          <span className="text-sm font-semibold tracking-tight">KartOrder</span>
         </div>
 
         <nav className="hidden gap-6 text-sm text-gray-600 md:flex">
           <a href="#why" className="hover:text-gray-900">
-            Why Kart Order
+            Why KartOrder
           </a>
           <a href="#features" className="hover:text-gray-900">
             Features
@@ -82,9 +82,9 @@ function Hero() {
             Turn WhatsApp messages into clean, trackable orders.
           </h1>
           <p className="mt-4 text-base leading-relaxed text-gray-600">
-            Kart Order reads your WhatsApp texts and creates neat order lines with
-            quantities, <b>brands</b>, and <b>variants</b>. Fix anything with one
-            click — the AI learns from you.
+          KartOrder reads your customers’ WhatsApp messages and creates neat order lines 
+  with quantities, <b>brands</b>, and <b>variants</b>. Fix once, and the AI 
+  remembers your preferences.
           </p>
 
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
@@ -98,16 +98,16 @@ function Hero() {
               href="#why"
               className="inline-flex items-center justify-center rounded-lg border border-gray-200 bg-white px-5 py-3 text-sm font-semibold text-gray-900 hover:bg-gray-50"
             >
-              Why Kart Order?
+              Why KartOrder?
             </a>
           </div>
 
           <ul className="mt-6 grid gap-2 text-sm text-gray-700">
-            <li>• AI parsing with human-in-the-loop fixes</li>
-            <li>• Brand/variant awareness (e.g., Almarai · Full Fat)</li>
-            <li>• Instant contact actions (call / WhatsApp)</li>
-            <li>• Order status: Pending · Shipped · Paid</li>
-            <li>• Admin: org disable, spend caps, product aliases</li>
+          <li>• AI turns WhatsApp chats into itemized orders</li>
+  <li>• Understands brand & variant (e.g., Almarai · Full Fat)</li>
+  <li>• One screen to call or WhatsApp the customer</li>
+  <li>• Simple statuses: Pending · Shipped · Paid</li>
+  <li>• Admin controls: limit AI spend and manage products</li>
           </ul>
         </div>
 
@@ -189,11 +189,11 @@ function Why() {
     <section id="why" className="bg-gray-50 py-16 md:py-20">
       <Container>
         <h2 className="text-center text-3xl font-bold tracking-tight text-gray-900">
-          Why shops choose Kart Order
+          Why shops choose KartOrder
         </h2>
         <p className="mx-auto mt-2 max-w-2xl text-center text-gray-600">
-          Clear outcomes, not buzzwords. Kart Order reduces mistakes and frees up
-          staff time — starting day one.
+        Clear outcomes, not buzzwords. KartOrder reduces mistakes on WhatsApp orders 
+        and frees up your staff’s time — from day one.
         </p>
 
         <div className="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
@@ -350,7 +350,7 @@ function Pricing() {
     {
       name: "Free",
       price: "$0",
-      sub: "25 orders/day",
+      sub: "Up to 25 orders/day",
       features: ["AI parsing", "Manual fixes", "Basic support"],
       cta: "Start free",
       href: "/login",
@@ -359,7 +359,7 @@ function Pricing() {
     {
       name: "Pro",
       price: "$29",
-      sub: "Unlimited orders",
+      sub: "Higher volumes & advanced features",
       features: ["Everything in Free", "PDF invoices", "Priority support"],
       cta: "Upgrade",
       href: "/login",
@@ -458,10 +458,10 @@ function Footer() {
   return (
     <footer className="border-t border-gray-200 py-8">
       <Container className="flex flex-col items-center justify-between gap-3 text-sm text-gray-600 md:flex-row">
-        <div>© {new Date().getFullYear()} Kart Order</div>
+        <div>© {new Date().getFullYear()} KartOrder</div>
         <div className="flex items-center gap-4">
           <a href="#why" className="hover:text-gray-900">
-            Why Kart Order
+            Why KartOrder
           </a>
           <a href="#pricing" className="hover:text-gray-900">
             Pricing
