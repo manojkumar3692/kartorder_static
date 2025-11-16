@@ -1,18 +1,17 @@
 // src/pages/LandingNeon.tsx
 import React from "react";
 
-// ✅ Allow id (and any other HTML props), keep old logic
+type SectionProps = React.HTMLAttributes<HTMLElement>;
 
-const Section = ({
+const Section: React.FC<SectionProps> = ({
   children,
   className = "",
-  id,
-}: React.PropsWithChildren<{ className?: string; id?: string }>) => (
-  <section id={id} className={`relative ${className}`}>
+  ...rest
+}) => (
+  <section className={`relative ${className}`} {...rest}>
     {children}
   </section>
 );
-
 export default function LandingNeon() {
   return (
     <div className="min-h-screen bg-[#0B0F1A] text-white">
