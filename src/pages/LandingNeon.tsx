@@ -20,7 +20,7 @@ export default function LandingNeon() {
         <div className="mx-auto flex h-14 w-full max-w-7xl items-center justify-between px-4 md:px-6">
           <div className="flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-fuchsia-500 to-cyan-400 text-[10px] font-extrabold">
-              KS
+              KO
             </div>
             <span className="text-sm font-semibold tracking-tight">KartOrder</span>
           </div>
