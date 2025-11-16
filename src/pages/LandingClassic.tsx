@@ -20,12 +20,12 @@ function Nav() {
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-black text-[10px] font-bold text-white">
             KS
           </div>
-          <span className="text-sm font-semibold tracking-tight">KartoSync</span>
+          <span className="text-sm font-semibold tracking-tight">Kart Order</span>
         </div>
 
         <nav className="hidden gap-6 text-sm text-gray-600 md:flex">
           <a href="#why" className="hover:text-gray-900">
-            Why KartoSync
+            Why Kart Order
           </a>
           <a href="#features" className="hover:text-gray-900">
             Features
@@ -82,7 +82,7 @@ function Hero() {
             Turn WhatsApp messages into clean, trackable orders.
           </h1>
           <p className="mt-4 text-base leading-relaxed text-gray-600">
-            KartoSync reads your WhatsApp texts and creates neat order lines with
+            Kart Order reads your WhatsApp texts and creates neat order lines with
             quantities, <b>brands</b>, and <b>variants</b>. Fix anything with one
             click — the AI learns from you.
           </p>
@@ -98,7 +98,7 @@ function Hero() {
               href="#why"
               className="inline-flex items-center justify-center rounded-lg border border-gray-200 bg-white px-5 py-3 text-sm font-semibold text-gray-900 hover:bg-gray-50"
             >
-              Why KartoSync?
+              Why Kart Order?
             </a>
           </div>
 
@@ -189,10 +189,10 @@ function Why() {
     <section id="why" className="bg-gray-50 py-16 md:py-20">
       <Container>
         <h2 className="text-center text-3xl font-bold tracking-tight text-gray-900">
-          Why shops choose KartoSync
+          Why shops choose Kart Order
         </h2>
         <p className="mx-auto mt-2 max-w-2xl text-center text-gray-600">
-          Clear outcomes, not buzzwords. KartoSync reduces mistakes and frees up
+          Clear outcomes, not buzzwords. Kart Order reduces mistakes and frees up
           staff time — starting day one.
         </p>
 
@@ -458,10 +458,10 @@ function Footer() {
   return (
     <footer className="border-t border-gray-200 py-8">
       <Container className="flex flex-col items-center justify-between gap-3 text-sm text-gray-600 md:flex-row">
-        <div>© {new Date().getFullYear()} KartoSync</div>
+        <div>© {new Date().getFullYear()} Kart Order</div>
         <div className="flex items-center gap-4">
           <a href="#why" className="hover:text-gray-900">
-            Why KartoSync
+            Why Kart Order
           </a>
           <a href="#pricing" className="hover:text-gray-900">
             Pricing
