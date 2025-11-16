@@ -2,10 +2,13 @@
 import React from "react";
 
 // ✅ Allow id (and any other HTML props), keep old logic
-type SectionProps = React.PropsWithChildren<React.HTMLAttributes<HTMLElement>>;
 
-const Section = ({ children, className = "", ...rest }: SectionProps) => (
-  <section className={`relative ${className}`} {...rest}>
+const Section = ({
+  children,
+  className = "",
+  id,
+}: React.PropsWithChildren<{ className?: string; id?: string }>) => (
+  <section id={id} className={`relative ${className}`}>
     {children}
   </section>
 );
