@@ -1,8 +1,13 @@
 // src/pages/LandingNeon.tsx
 import React from "react";
 
-const Section = ({ children, className = "" }: React.PropsWithChildren<{ className?: string }>) => (
-  <section className={`relative ${className}`}>{children}</section>
+// ✅ Allow id (and any other HTML props), keep old logic
+type SectionProps = React.PropsWithChildren<React.HTMLAttributes<HTMLElement>>;
+
+const Section = ({ children, className = "", ...rest }: SectionProps) => (
+  <section className={`relative ${className}`} {...rest}>
+    {children}
+  </section>
 );
 
 export default function LandingNeon() {
