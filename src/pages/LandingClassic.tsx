@@ -338,7 +338,7 @@ function Examples() {
 
         {/* your modal/screenshot tile */}
         <div className="mt-8 overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm">
-          <img src="/3.png" className="w-full" alt="Fix modal screenshot" />
+          <img src="/1.png" className="w-full" alt="Fix modal screenshot" />
         </div>
       </Container>
     </section>
