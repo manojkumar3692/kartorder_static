@@ -18,7 +18,7 @@ function Nav() {
       <Container className="flex h-14 items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-black text-[10px] font-bold text-white">
-            KS
+            KO
           </div>
           <span className="text-sm font-semibold tracking-tight">KartOrder</span>
         </div>
@@ -43,13 +43,13 @@ function Nav() {
 
         <div className="flex items-center gap-2">
           <a
-            href="/login"
+            href="https://calendly.com/manoj-officialmail/30min" target="_blank"
             className="hidden rounded-lg border border-gray-200 px-3 py-1.5 text-sm md:block"
           >
             Sign in
           </a>
           <a
-            href="/login"
+            href="https://calendly.com/manoj-officialmail/30min" target="_blank"
             className="rounded-lg bg-black px-3.5 py-2 text-sm font-semibold text-white hover:bg-black/90"
           >
             Start free
@@ -89,7 +89,7 @@ function Hero() {
 
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <a
-              href="/login"
+              href="https://calendly.com/manoj-officialmail/30min" target="_blank"
               className="inline-flex items-center justify-center rounded-lg bg-black px-5 py-3 text-sm font-semibold text-white hover:bg-black/90"
             >
               Start free — 25 orders/day
@@ -353,7 +353,7 @@ function Pricing() {
       sub: "Up to 25 orders/day",
       features: ["AI parsing", "Manual fixes", "Basic support"],
       cta: "Start free",
-      href: "/login",
+      href: "https://calendly.com/manoj-officialmail/30min",
       badge: "Most popular",
     },
     {
@@ -362,7 +362,7 @@ function Pricing() {
       sub: "Higher volumes & advanced features",
       features: ["Everything in Free", "PDF invoices", "Priority support"],
       cta: "Upgrade",
-      href: "/login",
+      href: "https://calendly.com/manoj-officialmail/30min",
       highlight: true,
     },
   ];

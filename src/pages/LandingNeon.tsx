@@ -30,7 +30,7 @@ export default function LandingNeon() {
             <a href="#pricing" className="hover:text-white">Pricing</a>
           </nav>
           <a
-            href="/login"
+            href="https://calendly.com/manoj-officialmail/30min"
             className="rounded-lg bg-gradient-to-r from-fuchsia-500 to-cyan-400 px-3.5 py-2 text-sm font-semibold text-black"
           >
             Start free
