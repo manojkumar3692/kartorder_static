@@ -472,7 +472,7 @@ function Footer() {
           </a>
           
           {/* NEW legal links */}
-          <a href="/privacy" className="hover:text-gray-900">
+          <a href="/privacy-policy" className="hover:text-gray-900">
             Privacy
           </a>
           <a href="/terms-of-service" className="hover:text-gray-900">
