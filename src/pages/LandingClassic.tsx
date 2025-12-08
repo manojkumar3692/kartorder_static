@@ -458,7 +458,8 @@ function Footer() {
   return (
     <footer className="border-t border-gray-200 py-8">
       <Container className="flex flex-col items-center justify-between gap-3 text-sm text-gray-600 md:flex-row">
-        <div>© {new Date().getFullYear()} KartOrder</div>
+        <div>© {new Date().getFullYear()} KartOrder • All rights reserved</div>
+
         <div className="flex items-center gap-4">
           <a href="#why" className="hover:text-gray-900">
             Why KartOrder
@@ -468,6 +469,20 @@ function Footer() {
           </a>
           <a href="/login" className="hover:text-gray-900">
             Sign in
+          </a>
+          
+          {/* NEW legal links */}
+          <a href="/privacy" className="hover:text-gray-900">
+            Privacy
+          </a>
+          <a href="/terms-of-service" className="hover:text-gray-900">
+            Terms
+          </a>
+          <a href="/refund-policy" className="hover:text-gray-900">
+            Refund
+          </a>
+          <a href="/cookie-policy" className="hover:text-gray-900">
+            Cookies
           </a>
         </div>
       </Container>
