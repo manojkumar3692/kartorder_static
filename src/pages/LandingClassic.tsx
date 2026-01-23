@@ -81,6 +81,7 @@ function Hero() {
           <h1 className="mt-4 text-4xl font-extrabold leading-tight tracking-tight text-gray-900 md:text-5xl">
             Turn WhatsApp messages into clean, trackable orders.
           </h1>
+          
           <p className="mt-4 text-base leading-relaxed text-gray-600">
           KartOrder reads your customers’ WhatsApp messages and creates neat order lines 
   with quantities, <b>brands</b>, and <b>variants</b>. Fix once, and the AI 
